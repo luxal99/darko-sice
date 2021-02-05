@@ -1,0 +1,77 @@
+.left-col {
+    background: rgb(255, 74, 50);
+    background: linear-gradient(90deg, rgba(255, 74, 50, 1) 55%, rgba(255, 255, 255, 1) 55%);
+    padding: 5em 10em;
+}
+
+.left-col img {
+    -webkit-box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-col {
+    padding-top: 5em;
+}
+
+.red-line {
+    width: 20%;
+    height: .5em;
+    background-color: rgb(255, 74, 50);
+}
+
+.left-col h1 {
+    color: rgb(255, 74, 50);
+
+}
+
+h4,h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.right-col h4 {
+    letter-spacing: 2px;
+}
+.header .container .row  {
+    padding-top: 2em;
+}
+.silver-divider {
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.about-work {
+    padding-top: 5em;
+}
+
+.red-col {
+    background-color: rgb(255, 74, 50);;
+}
+
+.black-col {
+    background-color: #121212;
+    color: #fff;
+}
+.about-work .row {
+    margin: 2em 12em;
+}
+.about-work .col-sm {
+    padding: 2em;
+}
+.nav-col {
+    padding-top: 2em;
+}
+.welcome {
+   margin-top: 10em;
+}
