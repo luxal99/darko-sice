@@ -34,7 +34,7 @@ p {
 
 }
 
-h4,h2 {
+h4, h2 {
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -42,9 +42,11 @@ h4,h2 {
 .right-col h4 {
     letter-spacing: 2px;
 }
-.header .container .row  {
+
+.header .container .row {
     padding-top: 2em;
 }
+
 .silver-divider {
     height: 1px;
     width: 100%;
@@ -63,15 +65,39 @@ h4,h2 {
     background-color: #121212;
     color: #fff;
 }
+
 .about-work .row {
     margin: 2em 12em;
 }
+
 .about-work .col-sm {
     padding: 2em;
 }
+
 .nav-col {
     padding-top: 2em;
 }
+
 .welcome {
-   margin-top: 10em;
+    margin-top: 10em;
 }
+
+h5 {
+    cursor: pointer;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+footer {
+    margin-top: 2em;
+}
+.col-sm-3 {
+    background-color: rgb(255, 74, 50);;
+}
+footer h1 {
+    padding: 2em 1em;
+}
+
