@@ -43,3 +43,35 @@ a:hover {
 nav {
     margin-top: 2em;
 }
+footer {
+    margin-top: 10em;
+}
+.col-sm-3 {
+    background-color: rgb(255, 74, 50);;
+}
+.footer-col {
+    padding: 4em;
+}
+.footer-col h1 {
+    padding-bottom: .2em;
+}
+.footer-col .silver-divider {
+    margin-bottom: 1em;
+}
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+::-webkit-scrollbar {
+    height: 1em;
+
+    width: 5px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255,74,50);
+    background: linear-gradient(90deg, rgba(255,74,50,1) 0%, rgba(255,13,13,1) 100%);
+
+    width: 1px;
+}

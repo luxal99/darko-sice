@@ -1,5 +1,7 @@
 {
+  "type": "module",
   "dependencies": {
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "swiper": "^6.4.11"
   }
 }
