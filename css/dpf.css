@@ -1,6 +1,6 @@
 .left-col {
     background: rgb(255, 74, 50);
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%,rgba(255, 74, 50, 1) 50%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(255, 74, 50, 1) 50%);
     padding: 5em 10em;
 }
 
@@ -9,6 +9,19 @@
     -moz-box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
 }
+
 .header {
     padding: 2em 5em;
+}
+
+.about-dpf {
+    -webkit-box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
+    padding: 2em;
+    margin-top: 2em;
+}
+
+.fa-check-circle {
+    color: rgb(255, 74, 50);
 }

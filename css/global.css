@@ -17,6 +17,11 @@ p {
 
 }
 
+h1 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+
 h4, h2 {
     font-family: 'Montserrat', sans-serif;
 

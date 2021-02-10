@@ -7,6 +7,44 @@
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/dpf.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Montserrat:wght@200;500&display=swap"
+          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
+
+        const swiper = new Swiper('.swiper-container', {
+            // Optional parameters
+            slidesPerView: 3,
+            spaceBetween: 30,
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+        });
+
+    </script>
 </head>
 <body>
 <div class="header">
@@ -26,7 +64,7 @@
                 <a href="../pages/kljucevi.html"><h5>Ključevi</h5></a>
             </div>
             <div class="col-sm nav-col">
-               <h5>Dpf/Egr</h5>
+                <h5>Dpf/Egr</h5>
             </div>
         </div>
         <div class="silver-divider"></div>
@@ -54,6 +92,67 @@
             </div>
         </div>
     </div>
+    <div class="header">
+        <h1>Ukljanjanje DPF filtera</h1>
+        <div class="red-line"></div>
+
+        <div class="about-dpf">
+            <p>
+                Uklanjanje DPF filtera se vrši prvo softverski, prepravkom parametara u “mapi” vašeg auta tako da ECU neće
+                primetiti nedostatak DPF filtera ili lose parameter senzora i „odvesti“ auto u takozvani servisni ili „safe
+                mod“.
+
+                Neki od benefita uklanjanja DPF-a su: smanjenje potrošnje goriva, vozilo dobija 2-5 KS, motor ne odlazi u
+                tzv.
+                „safe mode“ režim pri čemu nema potrebe za skupom zamenom DPF-a jer je problem rešen trajno, nema rizika od
+                oštećenja vitalnih komponenti automobila.
+            </p>
+        </div>
+        <h1 style="margin-top: 1em">Prednosti</h1>
+        <div class="red-line"></div>
+        <div class="about-dpf">
+            <h5><i class="fa fa-check-circle" aria-hidden="true"></i> Smanjenje potrošnje</h5>
+        </div>
+        <div class="about-dpf">
+            <h5><i class="fa fa-check-circle" aria-hidden="true"></i>  Bolji odziv na gas
+            </h5>
+        </div>
+        <div class="about-dpf">
+            <h5><i class="fa fa-check-circle" aria-hidden="true"></i> Povećanje snage 2-5KS</h5>
+        </div>
+        <div class="about-dpf">
+            <h5><i class="fa fa-check-circle" aria-hidden="true"></i> Trajno rešenje problema</h5>
+        </div>
+        <div class="swiper-container" style="margin-top: 5em">
+            <h1>Radovi</h1>
+            <div class="red-line"></div>
+            <div class="swiper-wrapper" style="margin-top: 5em">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="../img/businessman-giving-car-key-getting-new-car-concept_108064-172.jpg"
+                         class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/businessman-giving-car-key-getting-new-car-concept_108064-172.jpg"
+                         class="img-fluid">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../img/businessman-giving-car-key-getting-new-car-concept_108064-172.jpg"
+                         class="img-fluid">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
 </div>
 <footer>
     <div class="row">
