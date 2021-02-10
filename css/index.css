@@ -10,23 +10,10 @@
     box-shadow: 10px 10px 40px -24px rgba(0, 0, 0, 0.75);
 }
 
-h1 {
-    font-family: 'Manrope', sans-serif;
-    font-weight: bold;
-}
 
-p {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .right-col {
     padding-top: 5em;
-}
-
-.red-line {
-    width: 20%;
-    height: .5em;
-    background-color: rgb(255, 74, 50);
 }
 
 .left-col h1 {
@@ -34,24 +21,11 @@ p {
 
 }
 
-h4, h2 {
-    font-family: 'Montserrat', sans-serif;
-
-}
 
 .right-col h4 {
     letter-spacing: 2px;
 }
 
-.header .container .row {
-    padding-top: 2em;
-}
-
-.silver-divider {
-    height: 1px;
-    width: 100%;
-    background-color: #eee;
-}
 
 .about-work {
     padding-top: 5em;

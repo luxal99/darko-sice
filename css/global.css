@@ -1,0 +1,45 @@
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.right-col {
+    padding-top: 5em;
+}
+
+.red-line {
+    width: 20%;
+    height: .5em;
+    background-color: rgb(255, 74, 50);
+}
+
+.left-col h1 {
+    color: rgb(255, 74, 50);
+
+}
+
+h4, h2 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.silver-divider {
+    height: 1px;
+    width: 100%;
+    background-color: #eee;
+}
+
+a {
+    text-decoration: none;
+    color: #121212;
+}
+a:hover {
+    color: rgb(255, 74, 50);
+    transition: .5s;
+    text-decoration: none;
+}
+.nav-col {
+    padding-top: 2em;
+}
+nav {
+    margin-top: 2em;
+}
