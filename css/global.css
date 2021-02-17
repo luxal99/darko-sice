@@ -37,36 +37,46 @@ a {
     text-decoration: none;
     color: #121212;
 }
+
 a:hover {
     color: rgb(255, 74, 50);
     transition: .5s;
     text-decoration: none;
 }
+
 .nav-col {
     padding-top: 2em;
 }
+
 nav {
     margin-top: 2em;
 }
+
 footer {
     margin-top: 10em;
 }
-.col-sm-3 {
+
+.col-3 {
     background-color: rgb(255, 74, 50);;
 }
+
 .footer-col {
     padding: 4em;
 }
+
 .footer-col h1 {
     padding-bottom: .2em;
 }
+
 .footer-col .silver-divider {
     margin-bottom: 1em;
 }
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
 }
+
 ::-webkit-scrollbar {
     height: 1em;
 
@@ -75,11 +85,44 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(255,74,50);
-    background: linear-gradient(90deg, rgba(255,74,50,1) 0%, rgba(255,13,13,1) 100%);
+    background: rgb(255, 74, 50);
+    background: linear-gradient(90deg, rgba(255, 74, 50, 1) 0%, rgba(255, 13, 13, 1) 100%);
 
     width: 1px;
 }
+
 nav h5 {
     font-weight: bolder;
+}
+
+a {
+    color: #121212 !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 570px) {
+    .header {
+        padding: 1em !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .navbar-brand {
+        margin-top: -.5em;
+    }
+
 }

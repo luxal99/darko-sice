@@ -1,5 +1,8 @@
 {
   "type": "module",
+  "scripts": {
+    "deploy": "rsync -avz -e 'ssh' ./* root@$SERVER:/var/www/autoservissice.com"
+  },
   "dependencies": {
     "font-awesome": "^4.7.0",
     "swiper": "^6.4.11"

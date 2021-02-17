@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Chip tuning</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/global.css">
     <meta charset="UTF-8">
     <title>Auto servis Siče</title>
@@ -14,12 +13,20 @@
 
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/kljucevi.css">
-    <script src="../js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-
+    <link rel="icon" href="../img/Logo-Car-service-center-on-transparent-background-PNG.ico">
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
 
     <script type="module">
         import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
@@ -49,11 +56,40 @@
         });
 
     </script>
+
 </head>
 <body>
 <div class="header">
     <nav>
-        <div class="row text-center nvb">
+        <div class="text-right mobile">
+            <div class="row">
+                <div class="col">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="col text-right" style="text-align: right">
+                    <img class="img-fluid navbar-brand text-right" width="100px"
+                         src="../img/Logo-Car-service-center-on-transparent-background-PNG.png">
+                </div>
+            </div>
+        </div>
+        <div class="row text-center nvb collapse navbar-collapse" id="navbarNav">
+            <div class="col-sm nav-col">
+                <a href="../index.html"><h5>Početna</h5></a>
+            </div>
+            <div class="col-sm nav-col">
+                <h5>Chip tuning</h5>
+            </div>
+            <div class="col-sm nav-col">
+                <a href="../pages/kljucevi.html"><h5>Ključevi</h5></a>
+            </div>
+            <div class="col-sm nav-col">
+                <a href="../pages/dpf.html"><h5>Dpf/Egr</h5></a>
+            </div>
+        </div>
+        <div class="row text-center nvb desktop">
             <div class="col-sm nav-col">
                 <a href="../index.html"><h5>Početna</h5></a>
             </div>
@@ -61,11 +97,11 @@
                 <h5>Chip tuning</h5>
             </div>
             <div class="col-sm">
-                <img class="img-fluid" width="150px"
-                     src="../img/Logo-Car-service-center-on-transparent-background-PNG.png">
+                <img class="img-fluid text-right" src="../img/Logo-Car-service-center-on-transparent-background-PNG.png"
+                     width="150px">
             </div>
             <div class="col-sm nav-col">
-                <h5>Ključevi</h5>
+                <a href="../pages/kljucevi.html"><h5>Ključevi</h5></a>
             </div>
             <div class="col-sm nav-col">
                 <a href="../pages/dpf.html"><h5>Dpf/Egr</h5></a>
@@ -118,15 +154,13 @@
 
 <footer>
     <div class="row">
-        <div class="col-sm-3"></div>
-        <div class="col-sm footer-col">
+        <div class="col-3"></div>
+        <div class="col footer-col">
             <h1>Kontaktirajte nas</h1>
             <div class="silver-divider"></div>
-            <p><i class="fa fa-location-arrow" style="font-size: 20px"></i> Svetosavska bb, Varvarin </p>
-            <p><i class="fa fa-phone" style="font-size: 20px"></i> +381 63 1147815</p>
-            <p><i class="fa fa-phone" style="font-size: 20px"></i> 037 788 828</p>
-            <p><i class="fa fa-phone" style="font-size: 20px"></i> 037 788 744</p>
-            <p><i class="fa fa-envelope" style="font-size: 20px"></i> ivadoovarvarin@gmail.com</p>
+            <p><i class="fa fa-location-arrow" style="font-size: 20px"></i> S.Lužane, Aleksinac </p>
+            <a href="tel:+381 63 8122070"><p><i class="fa fa-phone" style="font-size: 20px"></i> +381 63 8122070</p></a>
+            <a href="mailto:autoservissice@gmail.com"> <p><i class="fa fa-envelope" style="font-size: 20px"></i> autoservissice@gmail.com</p></a>
             <h6>Powered by <a href="https://alemarc.dev">Alemarc</a></h6>
         </div>
     </div>
